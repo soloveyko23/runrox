@@ -1,0 +1,1704 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trade Smarter, Decide with Confidence with RunRox</title>
+            <meta name="robots" content="index, follow"/>
+        <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<style>
+    body {
+        opacity: 0;
+    }
+
+    .loaded body {
+        opacity: 1;
+    }
+
+    body, html {
+        background-color: #000;
+    }
+</style>
+<link rel="preload" as="style" href="https://runrox.com/build/assets/app-DF-B1gr8.css" /><link rel="modulepreload" href="https://runrox.com/build/assets/app-TJoGvL58.js" /><link rel="stylesheet" href="https://runrox.com/build/assets/app-DF-B1gr8.css" /><script type="module" src="https://runrox.com/build/assets/app-TJoGvL58.js"></script><link rel="shortcut icon" href="https://runrox.com/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <script>var BPixelJS;!function(){"use strict";var n={d:function(e,o){for(var t in o)n.o(o,t)&&!n.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:o[t]})},o:function(n,e){return Object.prototype.hasOwnProperty.call(n,e)}},e={};function o(n){!window.isPixelLoaded&&window.isPixelLoading?(window.pixelLoadedHandlers||(window.pixelLoadedHandlers=[]),window.pixelLoadedHandlers.push(n)):n()}function t(n){var e,o;return null!==(e=null===(o=window.BPIXEL_JS_CONFIG)||void 0===o?void 0:o[n])&&void 0!==e?e:void 0}function i(){var n;return(n=console).error.apply(n,arguments)}function r(n){return r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(n){return typeof n}:function(n){return n&&"function"==typeof Symbol&&n.constructor===Symbol&&n!==Symbol.prototype?"symbol":typeof n},r(n)}function a(){var n,e,o,t;return null!==(n=null!==(e=function(){if("object"!==r(window.tokens)||!window.tokens)return null;var n=window.tokens.bcid;return"string"!=typeof n?null:n}())&&void 0!==e?e:null!==(o=null==(t=document.cookie.match(new RegExp("(^|[ ;])".concat("bcid","=(.+?)(;|$)"))))?void 0:t[2])&&void 0!==o?o:null)&&void 0!==n?n:function(){var n,e,o=null!==(n=null==(e=window.location.search.match(new RegExp("(^|[&?])".concat("bcid","=(.*?)(&|$)"))))?void 0:e[2])&&void 0!==n?n:null;return"string"!=typeof o?null:o}()}function l(n,e){return"".concat(n).concat(e)}function d(n){var e=n.base,o=n.params,t=e||"?";return Object.entries(o).forEach((function(n){var e=n[0],o=n[1];"?"!==t[t.length-1]&&(t+="&"),t+="".concat(e,"=").concat(o)})),t}function u(n){var e=new Image;e.src=n,e.referrerPolicy="no-referrer-when-downgrade"}n.d(e,{default:function(){return c}});var c={config:function(n){!function(n){window.BPIXEL_JS_CONFIG=Object.assign({},window.BPIXEL_JS_CONFIG,n)}(n)},run:function(){var n,e,o,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};window.isPixelLoading=!0;var u,c,s,f=null!==(n=r.url)&&void 0!==n?n:t("url"),v=null!==(e=r.campaignKey)&&void 0!==e?e:t("campaignKey"),p=null!==(o=r.tokens)&&void 0!==o?o:{};void 0!==f?void 0!==v?(u=l(f,d({base:window.location.search,params:Object.assign({},p,{key:v,lp_type:"pixel"})})),c=function(){var n,e;window.isPixelLoading=!1,window.isPixelLoaded=!0,null===(n=window.pixelLoadedHandlers)||void 0===n||n.forEach((function(n){n()})),(e=a())?[{elements:document.querySelectorAll("a"),getHref:function(n){return n.getAttribute("href")},setHref:function(n,e){n.setAttribute("href",e)}},{elements:document.querySelectorAll("[data-href]"),getHref:function(n){return n.dataset.href||null},setHref:function(n,e){n.dataset.href=e}}].forEach((function(n){var o=n.elements,t=n.setHref,i=n.getHref;o.forEach((function(n){var o,r=i(n);r&&(/[?&]event[_\d]+=/.test(o=r)||/[?&]cnv_id=OPTIONAL(&|$)/.test(o)||/[?&]lp=(1|data_upd)(&|$)/.test(o))&&t(n,"".concat(r,"&bcid=").concat(e))}))})):i("Can't find click id")},(s=document.createElement("script")).src=u,s.async=!1,c&&(s.onload=c),document.head.appendChild(s)):i('"campaignKey" param must be passed'):i('"url" param must be passed')},update:function(){var n,e,r,c=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},s=null!==(n=c.url)&&void 0!==n?n:t("url"),f=null!==(e=c.updateKey)&&void 0!==e?e:t("updateKey"),v=null!==(r=c.tokens)&&void 0!==r?r:{};o((function(){if(void 0!==s)if(void 0!==f){var n=a();n?u(l(s,d({base:"?",params:Object.assign({},v,{upd_clickid:n,upd_key:f})}))):i("Can't find click id")}else i('"updateKey" param must be passed');else i('"url" param must be passed')}))},conversion:function(){var n,e,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},c=null!==(n=r.url)&&void 0!==n?n:t("url"),s=null!==(e=r.tokens)&&void 0!==e?e:{};o((function(){if(void 0!==c){var n=a();n||function(){var n;(n=console).warn.apply(n,arguments)}("Can't find click id"),u(l(c,d({base:"?",params:Object.assign({},s,{cnv_id:null!=n?n:"conversion_pixel"})})))}else i('"url" param must be passed')}))},onPixelLoaded:o,useTokens:function(n){o((function(){!function(n){"loading"!==document.readyState?n():document.addEventListener("DOMContentLoaded",n)}((function(){var e;n(null!==(e=window.tokens)&&void 0!==e?e:{})}))}))}};BPixelJS=e.default}();</script>
+
+<script>
+    let cachedClickId = '';
+
+    function setClickToCookie(clickId){
+        document.cookie = "clickid="+clickId+"; max-age=7776000; secure";
+    }
+
+    
+
+    function getCookie(name) {
+        let matches = document.cookie.match(new RegExp(
+            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+        ));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+
+    function getClickId(){
+        if(!!cachedClickId){
+            return cachedClickId;
+        }
+        return getCookie('clickid');
+    }
+</script>
+
+<script>
+    if (!getClickId()) {
+        BPixelJS.config({
+            url: 'https://tk.runrox.com/click',
+            campaignKey: 'eaf4ddbe09702d31b4bf',
+        });
+        BPixelJS.run();
+    }
+</script>
+
+<script>
+    BPixelJS.useTokens(function (tokens) {
+        if (tokens && tokens.clickid) {
+            const clickId = tokens.clickid;
+            const queryString = window.location.search;
+
+            const urlParams = new URLSearchParams(queryString);
+            const fbp = urlParams.get('fbp')
+            const fbclid = urlParams.get('fbclid')
+            setClickToCookie(clickId)
+            putClickToForm(clickId);
+            if (fbp && fbclid) {
+                sendClickFbRequest(clickId, fbp, fbclid);
+            } else {
+                sendClickRequest(clickId);
+            }
+        } else {
+            console.error("Invalid tokens received:", tokens);
+        }
+    })
+
+    function sendClickRequest(clickId) {
+        if (!!clickId) {
+            fetch("api/click", {
+                method: "POST",
+                body: JSON.stringify({
+                    clickid: clickId,
+                    page: window.location.pathname
+                }),
+                headers: {"Content-type": "application/json; charset=UTF-8"}
+            });
+        }
+    }
+
+    function sendClickFbRequest(clickId, fbp, fbclid) {
+        if (!!clickId) {
+            fetch("api/fbclick", {
+                method: "POST",
+                body: JSON.stringify({
+                    clickid: clickId,
+                    fbp: fbp,
+                    fbclid: fbclid,
+                    sourceUrl: window.location.href
+                }),
+                headers: {"Content-type": "application/json; charset=UTF-8"}
+            });
+        }
+    }
+
+    function putClickToForm(clickId) {
+        if (!!clickId) {
+            const clickIdInput = document.getElementById('clickid');
+            clickIdInput.setAttribute('value', clickId)
+        }
+    }
+
+</script>
+    <script>
+    const startTime = new Date()
+    const clickid = getClickId()
+
+    // Page loaded
+    window.addEventListener("DOMContentLoaded", function () {
+        const wait = setInterval(function () {
+            const clickidCookie = getClickId();
+            if (clickidCookie) {
+                clearInterval(wait);
+                var img = document.createElement('img');
+                img.src ="https://tk.runrox.com/click?upd_clickid=" + clickid + "&event7=1";
+                img.referrerPolicy = 'no-referrer-when-downgrade';
+                img.style.display = 'none';
+                document.body.appendChild(img);
+                console.log("Event 7 fired. Page loaded")
+            }
+        }, 500)
+    })
+
+    function pushToTracker(){
+        fetch("https://tk.runrox.com/click?upd_clickid=" + clickid + "&event9=1", {
+            mode: 'no-cors',
+        });
+    }
+    function pushAfterTimeout(timeout) {
+        setTimeout(pushToTracker, timeout*1000);
+    }
+    var TIMEOUT_IN_SECONDS = 30;
+    pushAfterTimeout(TIMEOUT_IN_SECONDS);
+
+    // Before closing the page
+    window.addEventListener('beforeunload', function (e) {
+        const endTime = new Date()
+        const secondsOnSite = (endTime.getTime() - startTime.getTime()) / 1000
+        var img = document.createElement('img');
+        img.src = 'https://tk.runrox.com/click?upd_clickid='+clickid+'&event10=' + secondsOnSite;
+        img.referrerPolicy = 'no-referrer-when-downgrade';
+        img.style.display = 'none';
+        document.body.appendChild(img);
+        console.log('Event10 fired');
+    })
+
+    //Scroll 80%
+    const element = document.querySelector('.selector');
+    var isSentEvent = false;
+    function onScroll(event) {
+        const current = document.documentElement.scrollTop;
+        const maxHeight = document.body.scrollHeight;
+
+        // if current position is more than 80% of document height
+        if (current > maxHeight * 0.8) {
+
+           if(isSentEvent === false){
+               isSentEvent=true;
+               fetch("https://tk.runrox.com/click?upd_clickid=" + clickid + "&event8=1", {
+                   mode: 'no-cors',
+               });
+            }
+        }
+    }
+
+    window.addEventListener('scroll', event => onScroll(event));
+
+</script>
+    <!-- Meta Pixel Code -->
+<script>
+    const wait = setInterval(function () {
+        const clickidCookie = getClickId();
+        if (clickidCookie) {
+            clearInterval(wait);
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function () {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '777199244505591', {'external_id': clickidCookie});
+            fbq('track', 'PageView');
+        }
+
+    },3000)
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=777199244505591&ev=PageView&noscript=1"/></noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+
+<body class="load">
+    <script type="text/javascript">
+    document.umnicoWidgetHash = '87ecb7c3a4cd6b5ed81b50bb23df58aa';
+    var x = document.createElement('script');
+    x.src = 'https://umnico.com/assets/widget-loader.js';
+    x.type = 'text/javascript';
+    x.charset = 'UTF-8';
+    x.async = true;
+    document.body.appendChild(x);
+</script>
+
+<div class="wrapper">
+    <header data-scroll="100" data-scroll-show class="header">
+    <div class="header__container">
+        <div class="header__wrapper">
+            <a href="/" class="header__logo">
+                <img src="https://runrox.com/img/new_landing/main/logo.svg" alt="Logo">
+            </a>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#reviews" class="menu__link" data-goto="#reviews" data-goto-top="50">Reviews</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#indicators" class="menu__link" data-goto="#indicators" data-goto-top="50">Indicators</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#tariff" class="menu__link" data-goto="#tariff" data-goto-top="50">Price</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#socials-items" class="menu__link" data-goto="#socials-items" data-goto-top="50">Community</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#faq" class="menu__link" data-goto="#faq" data-goto-top="50">FAQ</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="https://docs.runrox.com/quickstart" class="menu__link" data-goto-top="50">Docs</a>
+                    </li>
+                </ul>
+            </nav>
+            <button type="button" class="header__icon icon-menu">
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="main">
+            <div class="main__container">
+                <div class="main__inner">
+                    <div class="main__wrapper">
+                        <div class="main__top top">
+                            <div data-watch data-watch-once class="top__title title anim">Smarter Trading with RunRox
+                            </div>
+                            <div data-watch data-watch-once class="top__text h3 anim">
+                                <p>Optimize Your Trades and Maximize Profits with RunRox The Smart Solution for Modern
+                                    Traders</p>
+                            </div>
+                        </div>
+                        <a href="#tariff" data-goto="#tariff" data-goto-top="50" data-watch data-watch-once class="main__btn btn anim"><span class="btn__inner">Try without risk</span></a>
+                    </div>
+                    <div class="main__images">
+                        <div data-watch data-watch-once class="main__box anim delay-1">
+                            <div class="main__image main__image--left-1">
+                                <img data-src="https://runrox.com/img/new_landing/main/main_image-01.webp" alt="">
+                            </div>
+                        </div>
+                        <div data-watch data-watch-once class="main__box anim delay-2">
+                            <div class="main__image main__image--left-2">
+                                <img data-src="https://runrox.com/img/new_landing/main/main_image-02.webp" alt="">
+                            </div>
+                        </div>
+                        <div data-watch data-watch-once class="main__box anim delay-3">
+                            <div class="main__image main__image--left-3">
+                                <img data-src="https://runrox.com/img/new_landing/main/main_image-03.webp" alt="">
+                            </div>
+                        </div>
+                        <div data-watch data-watch-once class="main__box anim delay-1">
+                            <div class="main__image main__image--right-1">
+                                <img data-src="https://runrox.com/img/new_landing/main/main_image-04.webp" alt="">
+                            </div>
+                        </div>
+                        <div data-watch data-watch-once class="main__box anim delay-2">
+                            <div class="main__image main__image--right-2">
+                                <img data-src="https://runrox.com/img/new_landing/main/main_image-05.webp" alt="">
+                            </div>
+                        </div>
+                        <div data-watch data-watch-once class="main__box anim delay-3">
+                            <div class="main__image main__image--right-3">
+                                <img data-src="https://runrox.com/img/new_landing/main/main_image-06.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="indicators" id="indicators" data-watch="navigator">
+            <div class="indicators__container">
+                <div class="indicators__top top">
+                    <div data-watch data-watch-once class="top__title h1 anim mod">Our 5 Indicators for <span>Risk-Free Trading</span>
+                    </div>
+                    <div data-watch data-watch-once class="top__text anim">
+                        <p>Select the indicator you are interested in and watch the detailed video tutorial to learn how
+                            to use it effectively.</p>
+                    </div>
+                </div>
+                <div data-watch data-watch-once data-tabs class="indicators__tabs tabs anim">
+                    <div class="tabs__bar">
+                        <nav data-tabs-titles class="tabs__navigation">
+                            <button type="button" class="tabs__title title-tabs _tab-active">
+                                <div class="title-tabs__text text-s">Signals <br> Master</div>
+                            </button>
+                            <button type="button" class="tabs__title title-tabs">
+                                <div class="title-tabs__text text-s">Backtesting <br>System (SM)</div>
+                            </button>
+                            <button type="button" class="tabs__title title-tabs">
+                                <div class="title-tabs__text text-s">Advanced <br>SMC</div>
+                            </button>
+                            <button type="button" class="tabs__title title-tabs">
+                                <div class="title-tabs__text text-s">Backtesting <br>System (ASMC)</div>
+                            </button>
+                            <button type="button" class="tabs__title title-tabs">
+                                <div class="title-tabs__text text-s">Harmonic <br> Pattern</div>
+                            </button>
+                        </nav>
+                    </div>
+                    <div data-tabs-body class="tabs__main">
+                        <div class="tabs__body">
+                            <div data-ba class="before-after">
+                                <div data-ba-before class="before-after__item">
+                                    <div class="before-after__text before-after__text--before">
+                                        <p>Before</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img
+                                            data-src="https://runrox.com/img/new_landing/indicators-before-after/01-before.webp"
+                                            alt="Before">
+                                    </div>
+                                </div>
+                                <div data-ba-after class="before-after__item">
+                                    <div class="before-after__text before-after__text--after">
+                                        <p>After</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/01-after.webp" alt="After">
+                                    </div>
+                                </div>
+                                <div data-ba-arrow class="before-after__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="48" viewBox="0 0 12 48"
+                                         fill="none">
+                                        <rect width="12" height="48" rx="6" fill="#705B42"/>
+                                        <circle cx="6" cy="12" r="2" fill="white"/>
+                                        <circle cx="6" cy="24" r="2" fill="white"/>
+                                        <circle cx="6" cy="36" r="2" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__body">
+                            <div data-ba class="before-after">
+                                <div data-ba-before class="before-after__item">
+                                    <div class="before-after__text before-after__text--before">
+                                        <p>Before</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/02-before.webp" alt="Before">
+                                    </div>
+                                </div>
+                                <div data-ba-after class="before-after__item">
+                                    <div class="before-after__text before-after__text--after">
+                                        <p>After</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/02-after.webp" alt="After">
+                                    </div>
+                                </div>
+                                <div data-ba-arrow class="before-after__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="48" viewBox="0 0 12 48"
+                                         fill="none">
+                                        <rect width="12" height="48" rx="6" fill="#705B42"/>
+                                        <circle cx="6" cy="12" r="2" fill="white"/>
+                                        <circle cx="6" cy="24" r="2" fill="white"/>
+                                        <circle cx="6" cy="36" r="2" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__body">
+                            <div data-ba class="before-after">
+                                <div data-ba-before class="before-after__item">
+                                    <div class="before-after__text before-after__text--before">
+                                        <p>Before</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/03-before.webp" alt="Before">
+                                    </div>
+                                </div>
+                                <div data-ba-after class="before-after__item">
+                                    <div class="before-after__text before-after__text--after">
+                                        <p>After</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/03-after.webp" alt="After">
+                                    </div>
+                                </div>
+                                <div data-ba-arrow class="before-after__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="48" viewBox="0 0 12 48"
+                                         fill="none">
+                                        <rect width="12" height="48" rx="6" fill="#705B42"/>
+                                        <circle cx="6" cy="12" r="2" fill="white"/>
+                                        <circle cx="6" cy="24" r="2" fill="white"/>
+                                        <circle cx="6" cy="36" r="2" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__body">
+                            <div data-ba class="before-after">
+                                <div data-ba-before class="before-after__item">
+                                    <div class="before-after__text before-after__text--before">
+                                        <p>Before</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/04-before.webp" alt="Before">
+                                    </div>
+                                </div>
+                                <div data-ba-after class="before-after__item">
+                                    <div class="before-after__text before-after__text--after">
+                                        <p>After</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/04-after.webp" alt="After">
+                                    </div>
+                                </div>
+                                <div data-ba-arrow class="before-after__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="48" viewBox="0 0 12 48"
+                                         fill="none">
+                                        <rect width="12" height="48" rx="6" fill="#705B42"/>
+                                        <circle cx="6" cy="12" r="2" fill="white"/>
+                                        <circle cx="6" cy="24" r="2" fill="white"/>
+                                        <circle cx="6" cy="36" r="2" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__body">
+                            <div data-ba class="before-after">
+                                <div data-ba-before class="before-after__item">
+                                    <div class="before-after__text before-after__text--before">
+                                        <p>Before</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/05-before.webp" alt="Before">
+                                    </div>
+                                </div>
+                                <div data-ba-after class="before-after__item">
+                                    <div class="before-after__text before-after__text--after">
+                                        <p>After</p>
+                                    </div>
+                                    <div class="before-after__image">
+                                        <img data-src="https://runrox.com/img/new_landing/indicators-before-after/05-after.webp" alt="After">
+                                    </div>
+                                </div>
+                                <div data-ba-arrow class="before-after__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="48" viewBox="0 0 12 48"
+                                         fill="none">
+                                        <rect width="12" height="48" rx="6" fill="#705B42"/>
+                                        <circle cx="6" cy="12" r="2" fill="white"/>
+                                        <circle cx="6" cy="24" r="2" fill="white"/>
+                                        <circle cx="6" cy="36" r="2" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="tabs__body">
+                            <a href="" class="tabs__content">
+                                <div class="tabs__image lazy_image">
+                                    <img data-src="img/main/indicators__image-01.webp" alt="">
+                                </div>
+                                <div class="tabs__play play"><span class="play__icon _icon-play"></span></div>
+                                <div class="tabs__descr h3">Harmonic Pattern</div>
+                                <div class="tabs__text box text-xs">Watch a video of how the indicator works</div>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trading-indicators">
+            <div class="trading-indicators__container">
+                <div class="trading-indicators__top top">
+                    <div data-watch data-watch-once class="top__title h1 anim">Accurate and Reliable <span
+                            class="top__icon"><img src="https://runrox.com/img/new_landing/icons/charts.webp" alt=""> </span> <span>Indicators for Successful Trading</span>
+                    </div>
+                    <div data-watch data-watch-once class="top__text anim">
+                        <p>Indicators display a range of information on the chart, helping traders better understand
+                            market trends and determine direction. Utilize accurate data for successful trades.</p>
+                    </div>
+                </div>
+                <div class="trading-indicators__wrapper config-block__wrapper">
+                    <div class="config-block__item anim" data-watch data-watch-once>
+                        <div class="box__wrapper">
+                            <div class="box__top">
+                                <div class="config-block__content">
+                                    <div>
+                                        <div class="config-block__title h2">Signals Master</div>
+                                        <div class="config-block__text">
+                                            <p>An indicator for traders that enhances strategies with precise signals
+                                                and features.</p>
+                                        </div>
+                                    </div>
+                                    <div class="config-block__link-wrapper">
+                                        <a href="https://www.tradingview.com/script/93cDNy6r-RunRox-Signals-Master/" class="config-block__video">
+                                            <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                        </a>
+                                        <a href="https://runrox.com/signals_master" class="config-block__link link _icon-arrow">Full information</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__bottom box">
+                                <a href="https://www.tradingview.com/script/93cDNy6r-RunRox-Signals-Master/" class="config-block__video">
+                                    <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                </a>
+                                <div class="trading-indicators__swiper _scrolling swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-1-02.webp" alt="Slider 2">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-1-01.webp" alt="Slider 1">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-1-03.webp" alt="Slider 3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trading-indicators__pagination pagination-type-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="config-block__item anim" data-watch data-watch-once>
+                        <div class="box__wrapper">
+                            <div class="box__top">
+                                <div class="config-block__content">
+                                    <div>
+                                        <div class="config-block__title h2">Backtesting System (SM)</div>
+                                        <div class="config-block__text">
+                                            <p>RunRox optimizes Smart Money Concept setups for improved trading
+                                                strategies.</p>
+                                        </div>
+                                    </div>
+                                    <div class="config-block__link-wrapper">
+                                        <a href="https://www.tradingview.com/script/kslPdDmq-RunRox-Backtesting-System-SM/" class="config-block__video">
+                                            <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                        </a>
+                                        <a href="https://runrox.com/backtesting_system" class="config-block__link link _icon-arrow">Full information</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__bottom box">
+                                <a href="https://www.tradingview.com/script/kslPdDmq-RunRox-Backtesting-System-SM/" class="config-block__video">
+                                    <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                </a>
+                                <div class="trading-indicators__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-2-01.webp" alt="Slider 1">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-2-02.webp" alt="Slider 2">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-2-03.webp" alt="Slider 3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trading-indicators__pagination pagination-type-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="config-block__item anim" data-watch data-watch-once>
+                        <div class="box__wrapper">
+                            <div class="box__top">
+                                <div class="config-block__content">
+                                    <div>
+                                        <div class="config-block__title h2">Advanced SMC</div>
+                                        <div class="config-block__text">
+                                            <p>Boost Your Smart Money Concept Trading for Superior Results!</p>
+                                        </div>
+                                    </div>
+                                    <div class="config-block__link-wrapper">
+                                        <a href="https://www.tradingview.com/script/PWNammPn-RunRox-Advanced-SMC/" class="config-block__video">
+                                            <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                        </a>
+                                        <a href="https://runrox.com/advanced_smc" class="config-block__link link _icon-arrow">Full information</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__bottom box">
+                                <a href="https://www.tradingview.com/script/PWNammPn-RunRox-Advanced-SMC/" class="config-block__video">
+                                    <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                </a>
+                                <div class="trading-indicators__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-3-02.webp" alt="Slider 2">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-3-01.webp" alt="Slider 1">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-3-03.webp" alt="Slider 3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trading-indicators__pagination pagination-type-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="config-block__item anim" data-watch data-watch-once>
+                        <div class="box__wrapper">
+                            <div class="box__top">
+                                <div class="config-block__content">
+                                    <div>
+                                        <div class="config-block__title h2">Backtesting System (ASMC)</div>
+                                        <div class="config-block__text">
+                                            <p>Analysis of SMC strategies, entry/exit optimization for trading
+                                                success.</p>
+                                        </div>
+                                    </div>
+                                    <div class="config-block__link-wrapper">
+                                        <a href="https://www.tradingview.com/script/EzZ50v8Q-RunRox-Backtesting-System-ASMC/" class="config-block__video">
+                                            <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                        </a>
+                                        <a href="https://runrox.com/backtesting" class="config-block__link link _icon-arrow">Full information</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__bottom box">
+                                <a href="https://www.tradingview.com/script/EzZ50v8Q-RunRox-Backtesting-System-ASMC/" class="config-block__video">
+                                    <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                </a>
+                                <div class="trading-indicators__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-4-02.webp" alt="Slider 2">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-4-01.webp" alt="Slider 1">
+
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-4-03.webp" alt="Slider 3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trading-indicators__pagination pagination-type-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="config-block__item anim" data-watch data-watch-once>
+                        <div class="box__wrapper">
+                            <div class="box__top">
+                                <div class="config-block__content">
+                                    <div>
+                                        <div class="config-block__title h2">Harmonic Pattern</div>
+                                        <div class="config-block__text">
+                                            <p>Analysis and optimization of trading setups for maximum success.</p>
+                                        </div>
+                                    </div>
+                                    <div class="config-block__link-wrapper">
+                                        <a href="https://www.tradingview.com/script/KjI89AGn-RunRox-Harmonic-Patterns/" class="config-block__video">
+                                            <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                        </a>
+                                        <a href="https://runrox.com/harmonic_pattern" class="config-block__link link _icon-arrow">Full information</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__bottom box">
+                                <a href="https://www.tradingview.com/script/KjI89AGn-RunRox-Harmonic-Patterns/" class="config-block__video">
+                                    <img src="https://runrox.com/img/new_landing/icons/white-full-logo-tradingview.svg" alt="Play">
+                                </a>
+                                <div class="trading-indicators__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-5-01.webp" alt="Slider 1">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-5-02.webp" alt="Slider 2">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trading-indicators__image lazy_image">
+                                                <img data-src="https://runrox.com/img/new_landing/trading-indicators/slider-5-03.webp" alt="Slider 3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trading-indicators__pagination pagination-type-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews mod" id="reviews" data-watch="navigator">
+    <div class="reviews__container">
+        <div class="reviews__top top">
+            <div data-watch data-watch-once class="top__title mod h1 anim">Reviews</div>
+
+            <div data-watch data-watch-once class="top__text anim">
+                <p>Traders choose us for accurate signals, reversal forecasts, and flexible alerts for confident trading.</p>
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <div data-watch data-watch-once class="reviews__main anim">
+            <div class="reviews__slider swiper">
+                <div class="reviews__wrapper swiper-wrapper">
+                    <!--  First row -->
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/01.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/01-mob.webp" alt="Review 3">
+                            </picture>
+                        </div>
+                    </div>
+                    <a href="" target="_blank" class="reviews__slide video swiper-slide" data-popup="#popup-review-video1">
+                        <div class="reviews__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/reviews/02.webp" alt="Review 2">
+                        </div>
+                        <div class="reviews__play play"><span class="play__icon _icon-play"></span></div>
+                    </a>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/03.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/03-mob.webp" alt="Review 3">
+                            </picture>
+                        </div>
+                    </div>
+                    <a href="" target="_blank" class="reviews__slide video swiper-slide" data-popup="#popup-review-video2">
+                        <div class="reviews__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/reviews/04.webp" alt="Review 4">
+                        </div>
+                        <div class="reviews__play play"><span class="play__icon _icon-play"></span></div>
+                    </a>
+                    <!--  Second row -->
+                    <a href="" target="_blank" class="reviews__slide video swiper-slide" data-popup="#popup-review-video3">
+                        <div class="reviews__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/reviews/05.webp" alt="Review 5">
+                        </div>
+                        <div class="reviews__play play"><span class="play__icon _icon-play"></span></div>
+                    </a>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/06.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/06-mob.webp" alt="Review 6">
+                            </picture>
+                        </div>
+                    </div>
+                    <a href="" target="_blank" class="reviews__slide video swiper-slide" data-popup="#popup-review-video4">
+                        <div class="reviews__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/reviews/07.webp" alt="Review 7">
+                        </div>
+                        <div class="reviews__play play"><span class="play__icon _icon-play"></span></div>
+                    </a>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/08.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/08-mob.webp" alt="Review 8">
+                            </picture>
+                        </div>
+                    </div>
+                    <!--  First row -->
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/09.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/09-mob.webp" alt="Review 9">
+                            </picture>
+                        </div>
+                    </div>
+                    <a href="" target="_blank" class="reviews__slide video swiper-slide" data-popup="#popup-review-video5">
+                        <div class="reviews__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/reviews/10.webp" alt="Review 10">
+                        </div>
+                        <div class="reviews__play play"><span class="play__icon _icon-play"></span></div>
+                    </a>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/11.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/11-mob.webp" alt="Review 11">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide video">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/12.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/12-mob.webp" alt="Review 12">
+                            </picture>
+                        </div>
+                    </div>
+                    <!--  Second row -->
+                    <div class="reviews__slide video swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/13.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/13-mob.webp" alt="Review 13">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/14.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/14-mob.webp" alt="Review 14">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide video swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/17.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/17-mob.webp" alt="Review 17">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/16.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/16-mob.webp" alt="Review 16">
+                            </picture>
+                        </div>
+                    </div>
+                    <!--  First row -->
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/15.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/15-mob.webp" alt="Review 15">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide video swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/22.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/22-mob.webp" alt="Review 22">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/19.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/19-mob.webp" alt="Review 19">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide video swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/24.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/24-mob.webp" alt="Review 24">
+                            </picture>
+                        </div>
+
+                    </div>
+                    <!--  Second row -->
+                    <div class="reviews__slide video swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/21.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/21-mob.webp" alt="Review 21">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/18.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/18-mob.webp" alt="Review 18">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide video swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/23.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/23-mob.webp" alt="Review 23">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/20.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/20-mob.webp" alt="Review 20">
+                            </picture>
+                        </div>
+                    </div>
+                    <!--  First row -->
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/26.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/26-mob.webp" alt="Review 26">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide video swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/27.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/27-mob.webp" alt="Review 27">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__image lazy_image">
+                            <picture>
+                                <source srcset="https://runrox.com/img/new_landing/reviews/25.webp" media="(min-width: 500px)" type="image/png">
+                                <img data-src="https://runrox.com/img/new_landing/reviews/25-mob.webp" alt="Review 25">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="reviews__btn btn swiper-button-next"><span class="btn__inner _icon-load">Load more reviews</span></button>
+            <button type="button" class="reviews__btn reviews__more btn"><span class="btn__inner _icon-load">Load more reviews</span></button>
+        </div>
+    </div>
+</section>
+
+
+<!-- YouTube Video Popup -->
+<div id="popup-review-video" aria-hidden="true" class="popup popup-youtube">
+    <div class="popup__wrapper">
+        <button data-close type="button" class="popup__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path d="M1.5 16.5L16.5 1.5M1.5 1.5L16.5 16.5" stroke="#D4B46A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="popup__content popup__content--youtube">
+            <div class="popup__video" data-popup-youtube-place>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Local Video Popup -->
+<div id="popup-review-video1" aria-hidden="true" class="popup popup-local-video">
+    <div class="popup__wrapper">
+        <button data-close type="button" class="popup__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path d="M1.5 16.5L16.5 1.5M1.5 1.5L16.5 16.5" stroke="#D4B46A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="popup__content popup__content--local-video">
+            <div class="popup__video" data-popup-local-video-place>
+                <video controls muted playsinline>
+                    <source src="https://runrox.com/videos/IMG_1622.MOV.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="popup-review-video2" aria-hidden="true" class="popup popup-local-video">
+    <div class="popup__wrapper">
+        <button data-close type="button" class="popup__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path d="M1.5 16.5L16.5 1.5M1.5 1.5L16.5 16.5" stroke="#D4B46A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="popup__content popup__content--local-video">
+            <div class="popup__video" data-popup-local-video-place>
+                <video controls muted playsinline>
+                    <source src="https://runrox.com/videos/IMG_6777.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="popup-review-video3" aria-hidden="true" class="popup popup-local-video">
+    <div class="popup__wrapper">
+        <button data-close type="button" class="popup__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path d="M1.5 16.5L16.5 1.5M1.5 1.5L16.5 16.5" stroke="#D4B46A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="popup__content popup__content--local-video">
+            <div class="popup__video" data-popup-local-video-place>
+                <video controls muted playsinline>
+                    <source src="https://runrox.com/videos/IMG_7816.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="popup-review-video4" aria-hidden="true" class="popup popup-local-video">
+    <div class="popup__wrapper">
+        <button data-close type="button" class="popup__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path d="M1.5 16.5L16.5 1.5M1.5 1.5L16.5 16.5" stroke="#D4B46A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="popup__content popup__content--local-video">
+            <div class="popup__video" data-popup-local-video-place>
+                <video controls muted playsinline>
+                    <source src="https://runrox.com/videos/Runrox 2.0.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="popup-review-video5" aria-hidden="true" class="popup popup-local-video">
+    <div class="popup__wrapper">
+        <button data-close type="button" class="popup__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path d="M1.5 16.5L16.5 1.5M1.5 1.5L16.5 16.5" stroke="#D4B46A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="popup__content popup__content--local-video">
+            <div class="popup__video" data-popup-local-video-place>
+                <video controls muted playsinline>
+                    <source src="https://runrox.com/videos/Runrox video delivery.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <section id="features" class="features">
+            <div class="features__container">
+                <div class="features__top top">
+                    <div data-watch data-watch-once class="top__title h1 anim">Maximizing Your Trading Edge</div>
+                    <div data-watch data-watch-once class="top__text anim">
+                        <p>Boost your trading confidence and success with RunRox</p>
+                    </div>
+                </div>
+                <div class="features__wrapper">
+                    <div data-watch data-watch-once class="features__item anim">
+                        <div class="features__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/features__image-01.webp" alt="">
+                        </div>
+                        <div class="features__title h3">Real time Precision</div>
+                        <div class="features__text">
+                            <p>Receive instant buy and sell signals with exceptional accuracy, enabling you to make
+                                swift, informed decisions</p>
+                        </div>
+                    </div>
+                    <div data-watch data-watch-once class="features__item anim">
+                        <div class="features__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/features__image-02.webp" alt="">
+                        </div>
+                        <div class="features__title h3">Backtesting Brilliance</div>
+                        <div class="features__text">
+                            <p>Utilize historical data to fine-tune settings, ensuring your strategy is tested and
+                                robust before going live</p>
+                        </div>
+                    </div>
+                    <div data-watch data-watch-once class="features__item anim">
+                        <div class="features__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/features__image-03.webp" alt="">
+                        </div>
+                        <div class="features__title h3">Alert Customization</div>
+                        <div class="features__text">
+                            <p>Configure personalized notifications to stay updated on critical market movements without
+                                constant monitoring</p>
+                        </div>
+                    </div>
+                    <div data-watch data-watch-once class="features__item anim">
+                        <div class="features__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/features__image-04.webp" alt="">
+                        </div>
+                        <div class="features__title h3">Advance Analytics <span>Tools</span></div>
+                        <div class="features__text">
+                            <p>Deep-dive into market analysis sophisticated tools that offer insights to enhance your
+                                trading forecasts.</p>
+                        </div>
+                    </div>
+                    <div data-watch data-watch-once class="features__item anim">
+                        <div class="features__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/features__image-05.webp" alt="">
+                        </div>
+                        <div class="features__title h3">Backtesting Brilliance</div>
+                        <div class="features__text">
+                            <p>Utilize historical data to fine-tune settings, ensuring your strategy is tested and
+                                robust before going live</p>
+                        </div>
+                    </div>
+                    <div data-watch data-watch-once class="features__item anim">
+                        <div class="features__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/features__image-06.webp" alt="">
+                        </div>
+                        <div class="features__title h3">Profit Protection Features</div>
+                        <div class="features__text">
+                            <p>Monitor and adjust your strategies with an intuitive dashboard, offering a clear view of
+                                all your trading parameters.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            function sendEvent23() {
+                fetch('/event23', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-TOKEN': 'u9mCFDd0gq5gXoP4LEYLXpQ13nMHar750wNgadnw'
+                    },
+                    body: JSON.stringify({clickid: getClickId()})
+                })
+                    .then(response => {
+                        console.log('event 23 ok');
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok ' + response.statusText);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log('event23');
+                    })
+                    .catch(error => {
+                        console.error('Fetch error:', error);
+                    });
+            }
+
+            function openModal(plan) {
+                const planInput = document.getElementById('plan');
+                const clickIdInput = document.getElementById('clickid');
+                planInput.setAttribute('value', plan)
+                clickIdInput.setAttribute('value', getClickId())
+                sendEvent23();
+
+                //open popup
+                const fakeLink = document.createElement('a');
+                fakeLink.setAttribute('href', '');
+                fakeLink.setAttribute('data-popup', '#popup-email');
+                document.body.appendChild(fakeLink);
+                fakeLink.click();
+                fakeLink.remove();
+            }
+        </script>
+
+        <section class="tariff" id="tariff" data-watch="navigator">
+            <div class="tariff__container">
+                <div class="tariff__header header-tariff">
+                    <div class="header-tariff__left">
+                        <h2 data-watch data-watch-once class="top__title h1 anim mod">
+                            Choose your plan with our <br> all-inclusive membership.
+                        </h2>
+                    </div>
+                    <div class="header-tariff__right">
+                        <div class="tariff-promo anim" data-watch data-watch-once>
+                            <div class="tariff-promo__left">
+                                <div class="tariff-promo__title">
+                                    <span>Get 15% Off all Yearly Plans</span>
+                                </div>
+                                <div class="tariff-promo__text">
+                                    <p>Enter the provided discount code at checkout to enjoy savings on your
+                                        purchase.</p>
+                                </div>
+                            </div>
+                            <div class="tariff-promo__right">
+                                <div class="tariff-promo__code">
+                                    <span>RunRox15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff__top top line anim" data-watch data-watch-once>
+                    <div class="line__wrapper">
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/mastercard.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/visa.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/dinersclub.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/mastercard.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/visa.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/americanexpress.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/visa.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/americanexpress.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/dinersclub.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/mastercard.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/visa.webp" alt="">
+                        </div>
+                        <div class="line__item lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/americanexpress.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div data-tabs data-watch data-watch-once class="tariff__tabs tabs-tariff anim">
+    <div class="tabs-tariff__subtitle">
+        <p>Pay yearly and get up to <span>50%</span> off!</p>
+    </div>
+    <nav data-tabs-titles class="tabs-tariff__navigation">
+        <button type="button" class="tabs-tariff__title _tab-active">Month</button>
+        <button type="button" class="tabs-tariff__title">Year</button>
+    </nav>
+    <div data-tabs-body class="tabs-tariff__content">
+        <div class="tabs-tariff__body">
+
+            <div class="tariff-card tariff-card--big">
+                <div class="tariff-card__header">
+                    <div class="tariff-card__logo">
+                        <img data-src="https://runrox.com/img/new_landing/main/logo.svg" alt="Image">
+                    </div>
+                </div>
+                <div class="tariff-card__right">
+                    <div class="tariff-card__price">
+                        <span class="tariff-card__value">59.99$</span>
+                        <div class="tariff-card__save">When purchasing for a year 24.99$ months</div>
+                    </div>
+                    <div class="tariff-card__action">
+                        <a href="" onclick="openModal('plan_xvgsR6YVO044j')" class="tariff-card__button btn"><span
+                                class="btn__inner">Subscribe Now</span></a>
+                    </div>
+                </div>
+
+                <div class="tariff-card__left">
+                    <div class="tariff-card__features">
+    <ul class="tariff-card__list">
+        <li class="tariff-card__item">Signals Master</li>
+        <li class="tariff-card__item">Backtesting System (SM)</li>
+        <li class="tariff-card__item">Advanced SMC</li>
+        <li class="tariff-card__item">Backtesting System (ASMC)</li>
+        <li class="tariff-card__item">Entry Model</li>
+    </ul>
+    <ul class="tariff-card__list">
+        <li class="tariff-card__item">Harmonic Pattern</li>
+        <li class="tariff-card__item">Support 24/7</li>
+        <li class="tariff-card__item">Active Indicator Updates</li>
+        <li class="tariff-card__item">7 Day Money Back Guarantee</li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-tariff__body">
+            <div class="tariff-card tariff-card--big">
+                <div class="tariff-card__header">
+                    <div class="tariff-card__logo">
+                        <img data-src="https://runrox.com/img/new_landing/main/logo.svg" alt="Image">
+                    </div>
+                </div>
+                <div class="tariff-card__right">
+                    <div class="tariff-card__price">
+                        <span class="tariff-card__value">299.99$</span>
+                        <div class="tariff-card__save">When purchasing for a year 24.99$ months</div>
+                    </div>
+                    <div class="tariff-card__action">
+                        <a href="" onclick="openModal('plan_iLLHnErXL6J27')" class="tariff-card__button btn"><span
+                                class="btn__inner">Subscribe Now</span></a>
+                    </div>
+                </div>
+
+                <div class="tariff-card__left">
+                    <div class="tariff-card__features">
+    <ul class="tariff-card__list">
+        <li class="tariff-card__item">Signals Master</li>
+        <li class="tariff-card__item">Backtesting System (SM)</li>
+        <li class="tariff-card__item">Advanced SMC</li>
+        <li class="tariff-card__item">Backtesting System (ASMC)</li>
+        <li class="tariff-card__item">Entry Model</li>
+    </ul>
+    <ul class="tariff-card__list">
+        <li class="tariff-card__item">Harmonic Pattern</li>
+        <li class="tariff-card__item">Support 24/7</li>
+        <li class="tariff-card__item">Active Indicator Updates</li>
+        <li class="tariff-card__item">7 Day Money Back Guarantee</li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tariff-checkout anim" data-watch data-watch-once>
+        <div class="tariff-checkout__left">
+            <div class="tariff-checkout-banner">
+                <span>7-day</span>
+                <p>Money-back guarantee</p>
+            </div>
+        </div>
+        <div class="tariff-checkout__right">
+            <div>
+                <h6>Safe and secure checkout</h6>
+                <p>Cancel anytime in one click from within your account. A link to get instant access is prompted to you
+                    directly after signing up. Trade at your own risk.</p>
+            </div>
+            <div>
+                <img src="https://runrox.com/img/new_landing/icons/secura.webp" alt="Secure img">
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section id="tutorial" class="how-it-works">
+            <div class="how-it-works__container">
+                <div class="how-it-works__top top anim" data-watch data-watch-once>
+                    <div class="top__title h1 ">How it works</div>
+                </div>
+                <div class="how-it-works__body">
+                    <div class="how-it-works__list">
+                        <div class="how-it-works__item item-how-it-works anim" data-watch data-watch-once>
+                            <div class="item-how-it-works__icon">
+                                <img src="https://runrox.com/img/new_landing/how-it-works/01.svg" alt="TradingView">
+                            </div>
+                            <div class="item-how-it-works__content">
+                                <h3>Create a free TradingView account</h3>
+                                <p>Register an account on TradingView if you do not have one yet. If you already have an
+                                    account, proceed to step 2. Our tools are compatible with all plans.</p>
+                            </div>
+                        </div>
+                        <div class="how-it-works__item item-how-it-works anim" data-watch data-watch-once>
+                            <div class="item-how-it-works__icon">
+                                <img src="https://runrox.com/img/new_landing/how-it-works/02.svg" alt="Chart Prime">
+                            </div>
+                            <div class="item-how-it-works__content">
+                                <h3>Get RUNROX indicators</h3>
+                                <p>Subscribe to the service, and you will receive an email with a link to connect your
+                                    TradingView and Discord accounts to our system. Our trading suite includes all
+                                    premium features, regardless of the subscription plan you select.</p>
+                            </div>
+                        </div>
+                        <div class="how-it-works__item item-how-it-works anim" data-watch data-watch-once>
+                            <div class="item-how-it-works__icon">
+                                <img src="https://runrox.com/img/new_landing/how-it-works/03.svg" alt="Membership">
+                            </div>
+                            <div class="item-how-it-works__content">
+                                <h3>Enjoy your Membership</h3>
+                                <p>After linking your accounts, wait 5-15 minutes. Then go to your TradingView chart
+                                    page and click on "Indicators" to find your new tools under the Invite-Only Scripts
+                                    tab.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.how-it-works -->
+
+
+        <section class="socials-items" id="socials-items" data-watch="navigator">
+            <div class="socials-items__container">
+                <div class="socials-items__content">
+                    <div class="socials-items__top top anim" data-watch data-watch-once>
+                        <div class="top__title h1">Join our community</div>
+                    </div>
+                    <div class="socials-items__list">
+                        <div class="socials-item__item item-discord">
+                            <div data-watch data-watch-once class="socials-items__wrapper anim">
+                                <div class="socials-items__content">
+                                    <!-- <div class="socials-items__title h1">Join our community</div> -->
+                                    <div class="socials-items__text">
+                                        Still unsure? Join our <span>Discord</span> server and see the community results
+                                        for yourself!
+                                    </div>
+                                    <div class="socials-items__icon lazy_image">
+                                        <img data-src="https://runrox.com/img/new_landing/icons/discord.svg" alt="">
+                                    </div>
+                                    <a href="https://discord.gg/runrox" class="socials-items__link">Join Now</a>
+                                </div>
+                                <div class="socials-items__bg lazy_image">
+                                    <picture>
+                                        <source media="(max-width: 767.98px)" data-srcset="https://runrox.com/img/new_landing/main/discord-mob.webp"/>
+                                        <source media="(max-width: 1123.98px)" data-srcset="https://runrox.com/img/new_landing/main/discord-tab.webp"/>
+                                        <source media="(min-width: 1123.98px)" data-srcset="https://runrox.com/img/new_landing/main/discord.webp"/>
+                                        <img data-src="https://runrox.com/img/new_landing/main/discord.webp" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="socials-item__item item-telegram">
+                            <div data-watch data-watch-once class="socials-items__wrapper anim">
+                                <div class="socials-items__content">
+                                    <!-- <div class="socials-items__title h1">Join our community</div> -->
+                                    <div class="socials-items__text">
+                                        <p>No fluff. Just experience, numbers, <br> and real moves.</p>
+                                    </div>
+                                    <div class="socials-items__icon lazy_image">
+                                        <img data-src="https://runrox.com/img/new_landing/icons/telegram.svg" alt="">
+                                    </div>
+                                    <a href="https://t.me/RunRox_Team" class="socials-items__link">Join Now</a>
+                                </div>
+                                <div class="socials-items__bg lazy_image">
+                                    <picture>
+                                        <source media="(max-width: 767.98px)" data-srcset="https://runrox.com/img/new_landing/main/telegram-mob.webp"/>
+                                        <source media="(max-width: 1123.98px)"
+                                                data-srcset="https://runrox.com/img/new_landing/main/telegram-tab.webp"/>
+                                        <source media="(min-width: 1123.98px)" data-srcset="https://runrox.com/img/new_landing/main/telegram.webp"/>
+                                        <img data-src="https://runrox.com/img/new_landing/main/telegram.webp" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq" id="faq" data-watch="navigator">
+            <div class="faq__container">
+                <div class="faq__top top">
+                    <div data-watch data-watch-once class="top__title h1 anim">Frequently Asked Questions</div>
+                    <div data-watch data-watch-once class="top__text anim">
+                        <p>Find Your Answers Here</p>
+                    </div>
+                </div>
+                <div data-spollers data-one-spoller class="faq__spollers spollers">
+                    <details data-watch data-watch-once class="spollers__item anim">
+                        <summary class="spollers__button">
+                            <div class="spollers__title h3">What should I expect after purchasing?</div>
+                            <div class="spollers__icon"></div>
+                        </summary>
+                        <div class="spollers__body">
+                            <p>It's essential to note that a 100% win rate is unattainable with any indicator or
+                                strategy. Our buy and sell signals are created to complement and confirm analyses using
+                                our array of other indicators and features.</p>
+                        </div>
+                    </details>
+                    <details data-watch data-watch-once class="spollers__item anim">
+                        <summary class="spollers__button">
+                            <div class="spollers__title h3">Does it work for the free version of Tradingview?</div>
+                            <div class="spollers__icon"></div>
+                        </summary>
+                        <div class="spollers__body">
+                            <p>It's essential to note that a 100% win rate is unattainable with any indicator or
+                                strategy. Our buy and sell signals are created to complement and confirm analyses using
+                                our array of other indicators and features.</p>
+                        </div>
+                    </details>
+                    <details data-watch data-watch-once class="spollers__item anim">
+                        <summary class="spollers__button">
+                            <div class="spollers__title h3">Does RunRox have a 100% Win Rate?</div>
+                            <div class="spollers__icon"></div>
+                        </summary>
+                        <div class="spollers__body">
+                            <p>It's essential to note that a 100% win rate is unattainable with any indicator or
+                                strategy. Our buy and sell signals are created to complement and confirm analyses using
+                                our array of other indicators and features.</p>
+                        </div>
+                    </details>
+                    <details data-watch data-watch-once class="spollers__item anim">
+                        <summary class="spollers__button">
+                            <div class="spollers__title h3">Is there a money-back guarantee?</div>
+                            <div class="spollers__icon"></div>
+                        </summary>
+                        <div class="spollers__body">
+                            <p>It's essential to note that a 100% win rate is unattainable with any indicator or
+                                strategy. Our buy and sell signals are created to complement and confirm analyses using
+                                our array of other indicators and features.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="footer__main">
+        <div class="footer__container">
+            <div class="footer__wrapper">
+                <div class="footer__column">
+                    <a href="" data-watch data-watch-once class="footer__logo anim">
+                        <div class="footer__image lazy_image">
+                            <img data-src="https://runrox.com/img/new_landing/main/logo.svg" alt="">
+                        </div>
+                    </a>
+                    <div data-watch data-watch-once class="footer__right text-s anim">
+                        <p>Copyright © <span class="footer__year">2025</span> RunRox, Inc. All rights reserved.</p>
+                    </div>
+                    <div data-da=".footer__wrapper,767.98,2" data-watch data-watch-once
+                         class="footer__socials socials anim">
+                        <a href="https://twitter.com/RunRox_com" class="socials__link _icon-twitter"></a>
+                        <a href="https://discord.gg/runrox" class="socials__link _icon-discord"></a>
+                        <a href="https://www.instagram.com/runrox_com" class="socials__link _icon-instagram"></a>
+                        <a href="https://www.tiktok.com/@runrox_com" class="socials__link _icon-tiktok"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61558348555372" class="socials__link _icon-facebook"></a>
+                        <a href="https://www.youtube.com/channel/UC7lxFRQLc2OD5ZeIuwpm91Q" class="socials__link _icon-youtube"></a>
+                    </div>
+                </div>
+                <div data-spollers="767.98,max" data-one-spoller class="footer__nav">
+                    <details data-watch data-watch-once class="footer__details anim">
+                        <summary class="footer__title h3">Product</summary>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="https://runrox.com/signals_master" class="footer__link">Signals Masters</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com/backtesting_system" class="footer__link">Backtesting System (SM)</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com/advanced_smc" class="footer__link">Advanced SMC</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com/backtesting" class="footer__link">Backtesting System (ASMC)</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com/harmonic_pattern" class="footer__link">Harmonic Pattern</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com#features" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com#tutorial" class="footer__link">Tutorial</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com#tariff" class="footer__link">Prices</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com#socials-items" class="footer__link">Community</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com#faq" class="footer__link">FAQ</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://docs.runrox.com/quickstart" class="footer__link">Docs</a>
+                            </li>
+                        </ul>
+                    </details>
+                    <details data-watch data-watch-once class="footer__details anim">
+                        <summary class="footer__title h3">Company</summary>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="https://runrox.com/terms-of-service" class="footer__link">Term of Service</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com/privacy-policy" class="footer__link">Privacy Policy</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://runrox.com/refund-policy" class="footer__link">Refund Policy</a>
+                            </li>
+                        </ul>
+                    </details>
+                    <details data-watch data-watch-once class="footer__details anim">
+                        <summary class="footer__title h3">Community</summary>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="https://discord.gg/runrox" class="footer__link">Discord</a>
+                            </li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-watch data-watch-once class="footer__bottom anim">
+        <div class="footer__container">
+            <div data-watch data-watch-once class="footer__text text-xs anim">
+                <p>Important Information!</p>
+                <p>Using our crypto trading extension does not guarantee profits and involves a certain level of risk.
+                    Cryptocurrencies are highly volatile assets, and their value can fluctuate significantly over short
+                    periods.</p>
+                <p>Disclaimer of Liability: <br> Financial Risk: Every investment in cryptocurrencies is subject to
+                    market risks, including the possible loss of all invested funds. We are not responsible for any
+                    financial losses incurred as a result of using our extension. User Decisions: All trading decisions
+                    made by users based on the information and features provided by our extension are made at the users'
+                    own discretion and risk. We do not provide individual investment advice. Technical Issues: While we
+                    strive to ensure the uninterrupted operation of our extension, we do not guarantee the absence of
+                    technical failures or errors that may affect trading. Legal Information: This website and extension
+                    are not intended for use in jurisdictions where such activities are illegal or require additional
+                    regulation. Users must ensure that their actions comply with local laws and regulatory requirements.
+                    Recommendations: We recommend that users conduct their own research and consult with independent
+                    financial advisors before making any investment decisions. By using our website and extension, you
+                    agree to the terms of this disclaimer. If you do not agree with these terms, please do not use our
+                    services.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Email Subscription Popup -->
+    <div id="popup-email" aria-hidden="true" class="popup popup-email">
+        <div class="popup__wrapper">
+
+            <div class="popup__content popup__content--email">
+                <button data-close type="button" class="popup__close popup__close--email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M18 6L6 18M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="popup__email-form">
+                    <h2>Email</h2>
+                    <form class="email-form" method="POST" action="https://runrox.com/sub" id="subscribe-form"><input type="hidden" name="_token" value="u9mCFDd0gq5gXoP4LEYLXpQ13nMHar750wNgadnw">
+                        <input id="clickid" name="clickid" type="hidden" value="">
+                        <input id="plan" name="plan" type="hidden" value="">
+                        <div class="email-input-wrapper">
+                            <input name="email" type="email" placeholder="E-mail..." class="email-input" required>
+                        </div>
+                        <div class="checkbox">
+                            <input id="c_1" data-error="Error" class="checkbox__input" type="checkbox" value="1"
+                                   name="form[]" required checked="checked">
+                            <label for="c_1" class="checkbox__label">
+                                <span style="color:#4b4843">I agree to the <a href="https://runrox.com/terms-of-service" style="text-decoration: underline;">terms</a> and <a href="https://runrox.com/privacy-policy" style="text-decoration: underline;">conditions</a></span>
+                            </label>
+                        </div>
+                        <button type="submit" class="tariff-card__button btn">
+                            <span class="btn__inner">Subscribe Now</span>
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://platform.illow.io/banner.js?siteId=80c83459-c064-4947-aafe-4459097719c5"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JZ80SQ7EZ3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JZ80SQ7EZ3');
+</script>
+</body>
+</html>
