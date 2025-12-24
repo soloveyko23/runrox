@@ -790,10 +790,10 @@
 						</div>
 
 						<div class="top__trustpilot anim" data-watch data-watch-once>
-							<a href="" class="top__trustpilot-link">
+							<!-- <a href="" class="top__trustpilot-link">
 								<img src="img/icons/trustpilot.svg" alt="Trustpilot">
 								<span>Based on 2,456 reviews</span>
-							</a>
+							</a> -->
 						</div>
 					</div>
 					<div data-watch data-watch-once class="reviews__main anim">
@@ -880,7 +880,7 @@
 										</picture>
 									</div>
 								</div>
-								<a href="" target="_blank" class="reviews__slide video swiper-slide">
+								<a href="" target="_blank" class="reviews__slide swiper-slide">
 									<div class="reviews__image lazy_image">
 										<picture>
 											<source srcset="img/reviews/12.webp" media="(min-width: 500px)" type="image/png">
@@ -1163,17 +1163,17 @@
 						<div class="tabs-tariff__toggle-wrapper">
 							<span class="tabs-tariff__toggle-label">Monthly</span>
 							<label class="tabs-tariff__toggle">
-								<input type="checkbox" class="tabs-tariff__toggle-input" data-tabs-toggle>
+								<input type="checkbox" class="tabs-tariff__toggle-input" data-tabs-toggle checked>
 								<span class="tabs-tariff__toggle-slider"></span>
 							</label>
 							<span class="tabs-tariff__toggle-label">Yearly <span class="tabs-tariff__toggle-badge">(Best Value)</span></span>
 						</div>
 						<nav data-tabs-titles class="tabs-tariff__navigation" style="display: none;">
-							<button type="button" class="tabs-tariff__title _tab-active">Monthly</button>
-							<button type="button" class="tabs-tariff__title">Yearly (Best Value)</button>
+							<button type="button" class="tabs-tariff__title">Monthly</button>
+							<button type="button" class="tabs-tariff__title _tab-active">Yearly (Best Value)</button>
 						</nav>
 						<div data-tabs-body class="tabs-tariff__content">
-							<div class="tabs-tariff__body">
+							<div class="tabs-tariff__body" hidden>
 								<div class="tariff-cards">
 									<!-- Basic Plan -->
 									<div class="tariff-card tariff-card--plan">
@@ -1187,7 +1187,7 @@
 											<div class="tariff-card__subtitle">Essential tools for manual trading.</div>
 										</div>
 										<div class="tariff-card__price">
-											<span class="tariff-card__value">28,9$</span>
+											<span class="tariff-card__value">29$</span>
 											<span class="tariff-card__period">/mo</span>
 										</div>
 										<div class="tariff-card__features">
@@ -1196,11 +1196,13 @@
 												<li class="tariff-card__item tariff-card__item--active">Advanced SMC</li>
 												<li class="tariff-card__item tariff-card__item--active">Harmonic Pattern</li>
 												<li class="tariff-card__item tariff-card__item--active">Pairs Oscillator</li>
+												<li class="tariff-card__item">Pairs Screener</li>
 												<li class="tariff-card__item">Pairs Strategy</li>
 												<li class="tariff-card__item">Backtesting System (SM)</li>
 												<li class="tariff-card__item">Backtesting System (ASMC)</li>
 												<li class="tariff-card__item">Advanced DCA Bot</li>
 												<li class="tariff-card__item">Entry Model</li>
+												<li class="tariff-card__item">Terminal & Presets</li>
 											</ul>
 										</div>
 										<div class="tariff-card__action">
@@ -1227,7 +1229,7 @@
 											<div class="tariff-card__subtitle">Advanced tools for serious traders.</div>
 										</div>
 										<div class="tariff-card__price">
-											<span class="tariff-card__value">43,9$</span>
+											<span class="tariff-card__value">49$</span>
 											<span class="tariff-card__period">/mo</span>
 										</div>
 										<div class="tariff-card__features">
@@ -1239,9 +1241,11 @@
 												<li class="tariff-card__item tariff-card__item--active">Pairs Screener</li>
 												<li class="tariff-card__item tariff-card__item--active">Pairs Strategy</li>
 												<li class="tariff-card__item tariff-card__item--active">Entry Model</li>
+									
 												<li class="tariff-card__item">Backtesting System (SM)</li>
 												<li class="tariff-card__item">Backtesting System (ASMC)</li>
 												<li class="tariff-card__item">Advanced DCA Bot</li>
+                        <li class="tariff-card__item">Terminal & Presets</li>
 											</ul>
 										</div>
 										<div class="tariff-card__action">
@@ -1261,7 +1265,7 @@
 											<div class="tariff-card__subtitle">Complete ecosystem for algorithmic dominance.</div>
 										</div>
 										<div class="tariff-card__price">
-											<span class="tariff-card__value">79,9$</span>
+											<span class="tariff-card__value">99$</span>
 											<span class="tariff-card__period">/mo</span>
 										</div>
 										<div class="tariff-card__features">
@@ -1287,7 +1291,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="tabs-tariff__body" hidden>
+							<div class="tabs-tariff__body">
 								<div class="tariff-cards">
 									<!-- Basic Plan Yearly -->
 									<div class="tariff-card tariff-card--plan">
@@ -1301,12 +1305,12 @@
 											<div class="tariff-card__subtitle">Essential tools for manual trading.</div>
 										</div>
 										<div class="tariff-card__price">
-											<span class="tariff-card__value">28,9$</span>
+											<span class="tariff-card__value">24$</span>
 											<span class="tariff-card__period">/mo</span>
 										</div>
 										<div class="tariff-card__yearly">
 											<div class="tariff-card__yearly-billing">Billed $289 yearly</div>
-											<div class="tariff-card__yearly-savings">Save $59 (-2 months free)</div>
+											<div class="tariff-card__yearly-savings">Save $59 (2 months free)</div>
 										</div>
 										<div class="tariff-card__features">
 											<ul class="tariff-card__list">
@@ -1314,11 +1318,13 @@
 												<li class="tariff-card__item tariff-card__item--active">Advanced SMC</li>
 												<li class="tariff-card__item tariff-card__item--active">Harmonic Pattern</li>
 												<li class="tariff-card__item tariff-card__item--active">Pairs Oscillator</li>
+												<li class="tariff-card__item">Pairs Screener</li>
 												<li class="tariff-card__item">Pairs Strategy</li>
 												<li class="tariff-card__item">Backtesting System (SM)</li>
 												<li class="tariff-card__item">Backtesting System (ASMC)</li>
 												<li class="tariff-card__item">Advanced DCA Bot</li>
 												<li class="tariff-card__item">Entry Model</li>
+												<li class="tariff-card__item">Terminal & Presets</li>
 											</ul>
 										</div>
 										<div class="tariff-card__action">
@@ -1345,12 +1351,12 @@
 											<div class="tariff-card__subtitle">Advanced tools for serious traders.</div>
 										</div>
 										<div class="tariff-card__price">
-											<span class="tariff-card__value">43,9$</span>
+											<span class="tariff-card__value">37$</span>
 											<span class="tariff-card__period">/mo</span>
 										</div>
 										<div class="tariff-card__yearly">
 											<div class="tariff-card__yearly-billing">Billed $439 yearly</div>
-											<div class="tariff-card__yearly-savings">Save $99 (-2 months free)</div>
+											<div class="tariff-card__yearly-savings">Save $149 (3 months free)</div>
 										</div>
 										<div class="tariff-card__features">
 											<ul class="tariff-card__list">
@@ -1361,9 +1367,11 @@
 												<li class="tariff-card__item tariff-card__item--active">Pairs Screener</li>
 												<li class="tariff-card__item tariff-card__item--active">Pairs Strategy</li>
 												<li class="tariff-card__item tariff-card__item--active">Entry Model</li>
+												
 												<li class="tariff-card__item">Backtesting System (SM)</li>
 												<li class="tariff-card__item">Backtesting System (ASMC)</li>
 												<li class="tariff-card__item">Advanced DCA Bot</li>
+                        <li class="tariff-card__item ">Terminal & Presets</li>
 											</ul>
 										</div>
 										<div class="tariff-card__action">
@@ -1383,12 +1391,12 @@
 											<div class="tariff-card__subtitle">Complete ecosystem for algorithmic dominance.</div>
 										</div>
 										<div class="tariff-card__price">
-											<span class="tariff-card__value">79,9$</span>
+											<span class="tariff-card__value">67$</span>
 											<span class="tariff-card__period">/mo</span>
 										</div>
 										<div class="tariff-card__yearly">
 											<div class="tariff-card__yearly-billing">Billed $799 yearly</div>
-											<div class="tariff-card__yearly-savings">Save $389 (-2 months free)</div>
+											<div class="tariff-card__yearly-savings">Save $389 (4 months free)</div>
 										</div>
 										<div class="tariff-card__features">
 											<ul class="tariff-card__list">
